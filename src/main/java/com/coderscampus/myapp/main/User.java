@@ -2,6 +2,7 @@ package com.coderscampus.myapp.main;
 
 public class User {
 
+
     // declared private instance variables
     private String username;
     private String password;
@@ -40,7 +41,6 @@ public class User {
 	public void setFailedLoginAttempts(int failedLoginAttempts) {
 		this.failedLoginAttempts = failedLoginAttempts;
 	}
-    
     
     
     
