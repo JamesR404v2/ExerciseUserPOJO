@@ -27,6 +27,8 @@ If instead you see the green 'Code' button then you are not signed in to github.
 - Import this project as an existing Eclipse project
 - Start your coding in App.java's execute() method
 
+ALWAYS rename your project from `FIXME`, after importing! See troubleshooting below!!!!! (Right click, "Refactor" then "Rename")
+ALWAYS search your project for the string literal `FIXME`, and fix any as appropriate.
 
 ## How to run app
 
@@ -38,6 +40,7 @@ In Eclipse run MyServiceTest as JUnit test
 
 ## Troubleshooting
 
+- A second project from this template will NOT import into a workspace if you didn't refactor the name of a previous. Hint: Look for a project in your workspace starting with the name `FIXME` and then rename that project.
 - If your Eclipse is not set up with Java 11, you may expect problems that require you to add a Java 11 JDK in order to resolve. PS you need to do this anyway - your code reviewer expects that regardless of what you use as your project starter.
 
 
