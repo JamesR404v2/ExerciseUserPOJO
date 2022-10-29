@@ -38,7 +38,6 @@ In Eclipse run MyServiceTest as JUnit test
 
 ## Troubleshooting
 
-
 - If your Eclipse is not set up with Java 11, you may expect problems that require you to add a Java 11 JDK in order to resolve. PS you need to do this anyway - your code reviewer expects that regardless of what you use as your project starter.
 
 
